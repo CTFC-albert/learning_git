@@ -3,3 +3,5 @@ __pycache__/
 __*
 *.pyc
 venv/
+
+*Zone.Indetifier
