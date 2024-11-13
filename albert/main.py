@@ -17,8 +17,6 @@ async def read_root():
     html_content = f"""
     <!DOCTYPE html>
     <html>
-        <body>
-        </body>
     </html>
     """
     return HTMLResponse(content=html_content)
