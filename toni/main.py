@@ -14,6 +14,8 @@ async def read_root():
     user_name = os.getenv("USER_NAME", "Usuari")
 
     print (f'El teu nom és {user_name}, "Usuari"')
+    #ALERTA! conflicte amb la branca develop
+    print(f'El teu nom és {user_name}')
     
     # HTML amb el missatge personalitzat
     html_content = f"""
