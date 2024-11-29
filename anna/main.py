@@ -24,7 +24,7 @@ async def read_root():
         </head>
         <body>
             <h1>Hola {user_name}, estàs utilitzant FastAPI</h1>
-            <p>Ostres! aquí no també ens indica un conflicte</p>
+            <p>Benvingut a la nostra API</p>
         </body>
     </html>
     """
