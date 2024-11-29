@@ -14,6 +14,7 @@ async def read_root():
     user_name = os.getenv("USER_NAME", "Usuari")
 
     print(f'El teu nom és {user_name}')
+    print('test')
     
     # HTML amb el missatge personalitzat
     html_content = f"""
