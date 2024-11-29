@@ -12,6 +12,8 @@ app = FastAPI()
 async def read_root():
     # Obtenir el nom d'usuari del .env
     user_name = os.getenv("USER_NAME", "Usuari")
+    #ALERTA! conflicte amb la branca develop
+    print(f'El teu nom és {user_name}')
     
     # HTML amb el missatge personalitzat
     html_content = f"""
@@ -22,6 +24,7 @@ async def read_root():
         </head>
         <body>
             <h1>Hola {user_name}, estàs utilitzant FastAPI</h1>
+            <p>Ostres! aquí no també ens indica un conflicte</p>
         </body>
     </html>
     """
